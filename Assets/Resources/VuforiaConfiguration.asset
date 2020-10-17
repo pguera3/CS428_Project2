@@ -17,8 +17,8 @@ MonoBehaviour:
     ufoLicenseKey: QVNiTEtmWC8vLy8vQUFBQUtOZG9MS2E5M2tpOWxzVFJtVk1KN0FjMkJOMk44bStqdWFqaVdEcnVDK25MNEg0bWVOMDhjbGlRcktScFRoWnFwYWg3SVE3UzBkS2poTnAvcUdkOUtCMkpud3JqcjJTVHhXV1JZMnZlT0RPSU5ub0pMREVIY1Z4aEJ0Q0lqTkd0UWZITzJoVDJJZVpFMFFrS0FteDJCRGhMcDZmUkN0NGZsb3dDSzZQTHRNZ3Y0MkhYbEVTekVkUitYSkNETWhvN1I2K1J5aXV0dFJCWmx6UEhFeE5YWEFVcmI1eWdFS0gxVUdhWlA5bkExbUJOaENTcmtITHpyWFUyaWJqOUR5MVpMNVphZjU1czg5eDgvblFTbzZJRC9Dc3B4czRhY2JnSDhmbkhqR3I3OEhpMHV0OTc5UEg5blA3dmVDY0VQZ0dEOGVneUtSa0VSeitoV2U2RHFlWGQ4ODRrMDB4cVNiMDhLbmtETldOUlpLUSs=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
-    maxSimultaneousObjectTargets: 1
+    maxSimultaneousImageTargets: 2
+    maxSimultaneousObjectTargets: 2
     virtualSceneScaleFactor: 1
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
@@ -33,9 +33,9 @@ MonoBehaviour:
     unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoStartTracker: 0
-    arcoreRequirement: 0
-    autoImportArcore: 0
+    autoStartTracker: 1
+    arcoreRequirement: 1
+    autoImportArcore: 1
   playmode:
     mSequencePath: 
     playModeType: 0
